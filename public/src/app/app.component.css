@@ -1,0 +1,24 @@
+.container-fluid {
+    padding: 30px;
+}
+.content {
+    border: 1px solid slategray;
+    padding: 30px;
+    color: darkslategray;
+}
+h1 {
+    color: palevioletred;
+    text-align: center;
+    padding: 30px;
+    text-decoration-line: underline;
+}
+#displayed {
+    padding: 20px;
+}
+#scroll {
+    overflow-y: scroll;
+    height: 365px;
+}
+img {
+    border: 1px solid darkslategray;
+}

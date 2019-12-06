@@ -1,0 +1,17 @@
+span {
+    color: palevioletred;
+    font-style: italic;
+}
+h2 {
+    color: darkslategray;
+}
+h6 {
+    color: darkslategrey;
+}
+p{
+    color: slategray;
+    font-style: italic;
+}
+img {
+    border: 2px solid darkslategray;
+}

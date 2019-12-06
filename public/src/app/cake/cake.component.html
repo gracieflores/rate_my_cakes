@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col">
+        <h2>Baked by <span>{{onImgClickEvent.baker_name}}</span></h2>
+        <img src="{{onImgClickEvent.image_url}}" alt="amazing cakes" height="250" width="275">
+    </div>
+    <div class="col">
+        <h6>Average Rating: <span>{{average}}</span></h6>
+        <div *ngFor="let review of onImgClickEvent.reviews">
+            <p>- {{review.comment}}</p>
+            <p> {{review.rating}} stars</p>
+        </div>
+        
+    </div>
+</div>
